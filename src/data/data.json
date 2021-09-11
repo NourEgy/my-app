@@ -1,0 +1,115 @@
+
+
+{
+    "profileInfo" : [
+        {
+            "id" : 1,
+            "name": "Nour Eldin",
+            "WhatIDo1": "UI/UX Designer",
+            "WhatIDo2": "Web Developer",
+            "WhatIDo3": "Marketer",
+            "phoneNumber": "+1 2458 6423 45",
+            "Address": "The Here And There 2354",
+            "Nationality": "Here Again",
+            "Email": "Email@email.com"
+
+        }
+    ],
+
+    
+    "socialLinks" : [
+        {
+            "facebook" : "https://facebook.com",
+            "twitter":  "https://twitter.com",
+            "behance":  "https://behance.com",
+            "youtube":  "https://youtube.com",
+            "instagram":  "https://www.instagram.com/",
+            "linkedin":  "https://linkedin.com",
+            "dribbble":  "https://dribbble.com",
+            "github":  "https://github.com"
+        }
+    ],
+
+    "skills": [
+        {
+        "id" : 1,
+          "title": "DESIGN",
+          "value": 80
+        },
+        {
+            "id" : 2,
+          "title": "DEVELOPMENT",
+          "value": 85
+        },
+        {
+            "id" : 3,
+          "title": "MARKETING",
+          "value": 70
+        }
+      ],
+
+
+    "works" : [
+        {
+            "id" : 1,
+            "icon_name": "fab fa-react",
+            "title": "React js library",
+            "body": "React Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 2,
+            "icon_name": "fab fa-vuejs",
+            "title": "Vue js Framework",
+            "body": "Vue Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 3,
+            "icon_name": "fab fa-angular",
+            "title": "Angular js Framework",
+            "body": "Angular Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        }
+    ],
+
+    "portfolio" : [
+        {
+            "id":1,
+            "image": "./images/2.png",
+            "title":  "T-shirt Mockup",
+            "category": "UI-UX"
+        },
+        {
+            "id":2,
+            "image": "./images/1.png",
+            "title":  "T-shirt Mockup two",
+            "category": "Product"
+        },
+        {
+            "id":3,
+            "image": "./images/3.png",
+            "title":  "T-shirt Mockup",
+            "category": "Branding"
+        }
+       
+
+    ] ,
+    "social" : [
+        {
+            "id": 1,
+            "icon" : "icon fa fa-facebook fa-lg",
+            "title" : "Follow Me on",
+            "body" : "Social Facebook"
+        },
+        {
+            "id": 2,
+            "icon" : "icon fa fa-twitter fa-lg",
+            "title" : "Tweet Me on",
+            "body" : "Social twitter"
+        },
+        {
+            "id": 3,
+            "icon" : "icon fa fa-pinterest fa-lg",
+            "title" : "Pin Me on",
+            "body" : "Social Pinterest"
+        }
+    ] 
+}

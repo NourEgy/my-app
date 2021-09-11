@@ -1,0 +1,24 @@
+.section-portfolio {
+
+}
+.portfolio-box {
+    margin-bottom: 30px;
+    position: relative;
+
+}
+.portfolio-box p {
+    margin: 10px 0 15px;
+    font-weight: 600;
+    line-height: 14px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.portfolio-box h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+}

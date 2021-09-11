@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+/*========== Block Settings ==========*/
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="tel"]:focus,
+input[type="search"]:focus,
+input[type="password"]:focus,
+input[type="subject"]:focus,
+input[type="phone"]:focus,
+textarea:focus,
+select:focus,
+button:focus {
+    outline: none;
+    border: 2px solid #000;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="search"],
+input[type="password"],
+input[type="subject"],
+input[type="phone"],
+textarea {
+    outline: 0;
+    resize: none;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    line-height: 24px;
+    height: 50px;
+    font-size: 14px;
+    border: 2px solid #d6e8f3;
+    padding: 13px 20px;
+    background: #fff;
+    color: #02185a;
+    border-radius: 0px;
+    margin-bottom: 30px;
+    box-shadow: none !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+textarea {
+    height: 150px;
+    padding-top: 20px;
+}
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+a,
+a:hover,
+a:active,
+button:focus {
+  text-decoration: none;
+  border: none;
+  outline: 0;
+  color: #FFF;
+}
+ul
+ol,
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 0;
+}
+
+::selection {
+  background: #111;
+  color: #fff;
+}
+/*========== Typography Settings ==========*/
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+h2 {
+
+    font-size: 40px;
+    font-weight: 500;
+}
+h3 {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+h4 {
+
+    font-size: 23px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+p {
+    line-height: 28px;
+    font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+    color: #666;
+}
+
+
+.btn-two {
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 6px 50px;
+}
+
+
+.btn-two {
+  background: #000;
+  color: #fff;
+  border: 0;
+  line-height: 48px;
+}
+.btn-two:hover {
+  background: #FFF;
+  color: #000;
+  border: 0;
+}
+
+/*========== Spacing CSS ==========*/
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 15px;
+  width: 100%;
+
+}
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #989595;
+  line-height: 25px;
+  background: #fff;
+  box-sizing: border-box;
+}
+.main-start {
+  max-width: 2000px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #000;
+}
+
+.display-table {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+/*----------------------------------------------------------------
+        End Default Settings
+----------------------------------------------------------------*/  
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.section__section-title {
+  padding-bottom: 30px;
+}
+.section__section-title h2 {
+  font-size: 38px;
+    color: #000;
+    line-height: 38px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.section__section-title p {
+  font-size: 14px;
+  color: #666;
+  line-height: 14px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+
+
+.section_breadcrumb {
+    background: #eaf1fa;
+    height: 200px;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 222;
+    text-align: left;
+}
+.title-bread {
+  height: 200px;
+}
+.section_breadcrumb h1 {
+    color: #000;
+    display: block;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.contact-us form {
+  padding: 100px;
+}

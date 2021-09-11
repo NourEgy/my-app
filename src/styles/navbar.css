@@ -1,0 +1,117 @@
+nav {
+    width: 100%;
+    margin: 0px auto;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    opacity: 1;
+    z-index: 5555;
+    background: #fff;
+
+  }
+  nav .container {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    min-width: 320px;
+    height: 75px;
+    display: flex;
+    flex-flow: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: transparent;
+    opacity: 0.99;
+    letter-spacing: 0.5px;
+    transition: background-color 0.25s ease-in-out 0s;
+  }
+  .logo-left {
+    display: flex;
+    flex-flow: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: center;
+    height: 100%;
+    display: -webkit-flex;
+  }
+  .my-logo {
+    display: flex;
+    flex-flow: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    width: 120px;
+    justify-content: center;
+    height: 100%;
+    display: -webkit-flex;
+  }
+  .my-logo  img {
+    width: 150px;
+  }
+  .navbar-line {
+    margin: 0px 30px;
+    height: 30px;
+    width: 2px;
+    background: #000;
+    opacity: 0.2;
+  }
+   
+  
+  .nav-menu li {
+   display: inline-block;
+  }
+  
+  .nav-menu li a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin-right: 0;
+    font-size: 13px;
+    font-weight: 700;
+    position: relative;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    border-radius: 2px;
+    transition: 0.4s;
+  }
+  .nav-menu .nav-item .nav-link.active,
+  .nav-menu .nav-item .nav-link:hover {
+    color:#000;
+    background:#edf7fd;
+  }
+
+
+
+  .nav-bar .my-logo {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+  }
+  .nav-bar .my-logo h4 {
+    font-weight: 600;
+  }
+  .nav-bar .my-logo .logo-one {
+    width: 40px;
+    display: inline-block;
+  }
+  .nav-bar .my-logo {
+    position: relative;
+  }
+  .nav-bar .my-logo span {
+    font-size: 18px;
+    color: #161616;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 30px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+  }
+  

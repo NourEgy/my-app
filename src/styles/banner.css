@@ -1,0 +1,102 @@
+.home {
+
+   background-image: url(../images/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    height: 700px;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 222;
+    text-align: left;
+}
+
+.home .overlay {
+    background: linear-gradient(
+        45deg
+        , rgb(239 243 253 / 98%) 0%, rgb(238 254 255 / 98%) 100%);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            min-height: 100%;
+            height: 700px;
+
+}
+.info-header {
+    height: 700px;
+    min-height: 100%
+}
+.info-header .start {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    display: block;
+    text-transform: capitalize;
+}
+.info-header h1 {
+    color: #000;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    
+}
+.info-header h1 span {
+    display: block;
+    margin-top: 20px;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.banner {
+    position: relative;
+    z-index: 33;
+}
+
+.banner-meta {
+    display: block;
+    margin: 0 0 40px;
+    padding-left: 0;
+}
+.banner-meta li {
+    color: #000;
+    display: inline;
+    position: relative;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 2;
+}
+.banner-meta li:first-of-type::before {
+    top: -1px;
+    content: " ";
+    font-size: 11px;
+    position: relative;
+    color: currentcolor;
+    padding:  0;
+}
+.banner-meta li::before {
+    top: -1px;
+    content: "|";
+    font-size: 11px;
+    position: relative;
+    color: currentcolor;
+    padding: 0 20px 0 17px;
+}
+.p-head {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 30px;
+}
